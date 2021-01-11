@@ -77,10 +77,10 @@ python main_kgat.py --data_name amazon-book
 
 | | | Amazon-book | Last-FM | Yelp2018 | douban250 |
 |:---:|:---|---:|---:|---:|---:|
-|User-Item Interaction| #Users | 70,679 | 23,566 | 45,919| 4,422 |
+|User-Item Interaction| Users | 70,679 | 23,566 | 45,919| 4,422 |
 | | Items | 24,915 | 48,123 | 45,538| 250 |
 | | Interactions | 847,733 | 3,034,796 | 1,185,068| 55000 |
-|Knowledge Graph | #Entities | 88,572 | 58,266 | 90,961| None |
+|Knowledge Graph | Entities | 88,572 | 58,266 | 90,961| None |
 | | Relations | 39 | 9 | 42 | None |
 | | Triplets | 2,557,746 | 464,567 | 1,853,704| None |
 
