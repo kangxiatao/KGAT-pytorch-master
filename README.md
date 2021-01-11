@@ -56,15 +56,15 @@ PyTorch和DGL实现代码改自[这里](https://github.com/LunaBlack/KGAT-pytorc
 
 * FM
 ```
-python main_nfm.py --model_type fm --dataset amazon-book
+python main_nfm.py --model_type fm --data_name amazon-book
 ```
 * NFM
 ```
-python main_nfm.py --model_type nfm --dataset amazon-book
+python main_nfm.py --model_type nfm --data_name amazon-book
 ```
 * KGAT
 ```
-python main_kgat.py --dataset amazon-book
+python main_kgat.py --data_name amazon-book
 ```
 ## 数据集
 
@@ -78,11 +78,11 @@ python main_kgat.py --dataset amazon-book
 | | | Amazon-book | Last-FM | Yelp2018 | douban250 |
 |:---:|:---|---:|---:|---:|---:|
 |User-Item Interaction| #Users | 70,679 | 23,566 | 45,919| 4,422 |
-| | #Items | 24,915 | 48,123 | 45,538| 250 |
-| | #Interactions | 847,733 | 3,034,796 | 1,185,068| 55000 |
+| | Items | 24,915 | 48,123 | 45,538| 250 |
+| | Interactions | 847,733 | 3,034,796 | 1,185,068| 55000 |
 |Knowledge Graph | #Entities | 88,572 | 58,266 | 90,961| None |
-| | #Relations | 39 | 9 | 42 | None |
-| | #Triplets | 2,557,746 | 464,567 | 1,853,704| None |
+| | Relations | 39 | 9 | 42 | None |
+| | Triplets | 2,557,746 | 464,567 | 1,853,704| None |
 
 
 ## 结果
